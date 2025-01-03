@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 800px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border:1px solid ;
+    background-color: cornflowerblue;
+    padding: 5px;
+    margin: 10px;
+}
+li{
+    list-style-type:none;
+     white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; 
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
